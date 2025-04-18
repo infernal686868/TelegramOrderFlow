@@ -1,9 +1,0 @@
-import os
-
-file_path = "datasdsa/فایل/که/می‌خوای/حذف/کنی.txt"
-
-if os.path.exists(file_path):
-    os.remove(file_path)
-    print("فایل با موفقیت حذف شد.")
-else:
-    print("فایل وجود ندارد.")
